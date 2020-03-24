@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>計算</title>
+  </head>
+  <body>
+    <h1>計算</h1>
+    <ul>
+      <li>123.456→123.4</li>
+      <li>456.789→456.8</li>
+    </ul>
+
+    <form action="">
+      <div class="mainasu">
+        -Anawer
+        <input type="radio" name="mainasu" value="on" id="on" checked />ON
+        <input type="radio" name="mainasu" value="off" id="off" />OFF
+      </div>
+      <div class="en">
+        <input type="radio" name="enzansi" value="+" checked />+
+        <input type="radio" name="enzansi" value="-" />-
+        <input type="radio" name="enzansi" value="*" />*
+        <input type="radio" name="enzansi" value="/" />/
+      </div>
+      <div class="btn">
+        <input id="str" type="button" value="スタート" />
+        <input id="hyouji" type="button" value="答え" />
+      </div>
+      <pre><p id="siki"></p></pre>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
